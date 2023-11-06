@@ -1,0 +1,37 @@
+// The program input for arc20/src/main.leo
+[approve]
+public spender_: address = aleo13ssze66adjjkt795z9u5wpq8h6kn0y2657726h4h3e3wfnez4vqsm3008q;
+public amount_: u128 = 100u128;
+
+
+[transfer]
+public spender_: address = aleo17vy26rpdhqx4598y5gp7nvaa9rk7tnvl6ufhvvf4calsrrqdaqyshdsf5z;
+public amount_: u128 = 100u128;
+
+[transfer_from]
+public from_: address = aleo13ssze66adjjkt795z9u5wpq8h6kn0y2657726h4h3e3wfnez4vqsm3008q;
+public to_: address = aleo17vy26rpdhqx4598y5gp7nvaa9rk7tnvl6ufhvvf4calsrrqdaqyshdsf5z;
+public amount_: u128 = 100u128;
+
+
+[transfer_private]
+public from_: Balance = Balance {
+        owner: aleo13ssze66adjjkt795z9u5wpq8h6kn0y2657726h4h3e3wfnez4vqsm3008q,
+        amount: 100u128
+    };
+public to_: address = aleo17vy26rpdhqx4598y5gp7nvaa9rk7tnvl6ufhvvf4calsrrqdaqyshdsf5z;
+public amount_: u128 = 100u128;
+
+
+[transfer_private_to_public]
+public from_: Balance = Balance {
+        owner: aleo13ssze66adjjkt795z9u5wpq8h6kn0y2657726h4h3e3wfnez4vqsm3008q,
+        amount: 100u128
+    };
+public to_: address = aleo17vy26rpdhqx4598y5gp7nvaa9rk7tnvl6ufhvvf4calsrrqdaqyshdsf5z;
+public amount_: u128 = 100u128;
+
+
+[transfer_public_to_private]
+public to_: address = aleo17vy26rpdhqx4598y5gp7nvaa9rk7tnvl6ufhvvf4calsrrqdaqyshdsf5z;
+public amount_: u128 = 100u128;
