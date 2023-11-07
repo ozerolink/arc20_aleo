@@ -1,6 +1,7 @@
 # Readme for ARC20 Contract
 
-Discord 0zerolink#1115
+Discord old 0zerolink#1115
+Discord new 0zerolink0
 
 ## Overview
 The `arc20` program is a smart contract designed for the Aleo blockchain that implements token management functions similar to the ERC20 standard in Ethereum, tailored for privacy-focused operations.
